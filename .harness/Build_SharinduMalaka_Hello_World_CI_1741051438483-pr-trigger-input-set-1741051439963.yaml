@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_SharinduMalaka_Hello_World_CI_1741051438483-pr-trigger-input-set
+  identifier: Build_SharinduMalaka_Hello_World_CI_1741051438483prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_SharinduMalaka_Hello_World_CI_1741051438483
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
