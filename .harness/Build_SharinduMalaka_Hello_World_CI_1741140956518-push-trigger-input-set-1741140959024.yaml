@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_SharinduMalaka_Hello_World_CI_1741140956518-push-trigger-input-set
+  identifier: Build_SharinduMalaka_Hello_World_CI_1741140956518pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_SharinduMalaka_Hello_World_CI_1741140956518
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
